@@ -93,7 +93,7 @@ public class UserModel {
 			while(resultSet.next())
 			{
 				 id =resultSet.getInt("userID");
-				String name=resultSet.getString("name");
+				 String name=resultSet.getString("name");
 				
 			}
 			connection.close();
